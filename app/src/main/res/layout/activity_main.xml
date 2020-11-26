@@ -218,7 +218,6 @@
                     android:inputType="number"
                     android:maxLength="2"
                     android:maxLines="1"
-                    android:text="3"
                     android:textAlignment="center"
                     android:textColor="@color/textPrimary" />
             </LinearLayout>
@@ -248,8 +247,8 @@
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:alpha="0.1"
-                android:background="@color/colorPrimary" />
+                android:alpha="0.4"
+                android:background="@color/textPrimary" />
 
             <ProgressBar
                 android:layout_width="wrap_content"

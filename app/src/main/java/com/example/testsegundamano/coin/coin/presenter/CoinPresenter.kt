@@ -17,10 +17,12 @@ class CoinPresenter
     }
 
     override fun getCoinOption() {
+        this.view.showModal(true)
         this.model.getCoinOption()
     }
 
     override fun setCoinOption(list: List<String>) {
+        this.view.showModal(false)
         if(list.isEmpty()){
             this.setEmptyStateByCoinList(false)
         }else{
