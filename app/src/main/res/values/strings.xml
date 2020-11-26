@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TestSegundaMano</string>
+    <string name="title_coin">Historial de divisas</string>
+
+    <string name="label_from">Moneda</string>
+    <string name="label_limit">Número de días atrás</string>
+
+    <string name="button_search">Buscar</string>
+    <string name="button_reload">Cargar divisas</string>
+
+    <string name="title_empty_state">Opps! está vacío</string>
+    <string name="text_empty_state">En este momento no encontramos datos por mostrar.</string>
+
+
+    <string name="title_init_state">Estamos listos!</string>
+    <string name="text_init_state">Captura las divisas y el número de días de búsqueda atrás, para mostrar el historial.</string>
+
+    <string name="message_error_general">Ocurrió un error</string>
+    <string name="text_error_type_coin_state">Intenta cargar nuevamente los tipos de divisas.</string>
+
+    <string name="title_error_not_available_network">Internet no disponible</string>
+    <string name="message_error_not_available_network">Verifique su conexión a internet e intente cargar nuevamente las divisas.</string>
+
+    <string name="message_error_coin_from">Selecciona moneda origen</string>
+    <string name="message_error_coin_to" >Selecciona moneda destino</string>
+    <string name="message_error_coin_limit" >Ingresa el número de días atrás en la búsqueda</string>
+    <string name="message_error_coin_zero">El número de días atrás de la búsqueda debe ser superior a cero</string>
+</resources>

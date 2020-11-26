@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="separation_width_data">20dp</dimen>
+    <dimen name="size_text">18sp</dimen>
+    <dimen name="size_arrow">30dp</dimen>
+    <dimen name="size_space_card">6dp</dimen>
+</resources>

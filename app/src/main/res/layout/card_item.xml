@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    xmlns:tool="http://schemas.android.com/tools">
+    <LinearLayout
+        android:id="@+id/llInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvDate"
+            tool:text="12/10/2021"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textSecondary"
+            android:textSize="@dimen/size_text"/>
+
+        <Space
+            android:layout_width="@dimen/separation_width_data"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCoinFrom"
+                tool:text="USD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/size_text"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_space_card"/>
+
+            <TextView
+                android:id="@+id/tvCoinTo"
+                tool:text="EUR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/size_text"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="@dimen/separation_width_data"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivFrom"
+                android:layout_width="@dimen/size_arrow"
+                android:layout_height="@dimen/size_arrow"
+                android:src="@drawable/ic_up"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_space_card"/>
+
+            <ImageView
+                android:id="@+id/ivTo"
+                android:layout_width="@dimen/size_arrow"
+                android:layout_height="@dimen/size_arrow"
+                android:src="@drawable/ic_down"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="@dimen/separation_width_data"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvMoneyFrom"
+                tool:text="1.9000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_text"
+                android:textColor="@color/textSecondary"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_space_card"/>
+
+            <TextView
+                android:id="@+id/tvMoneyTo"
+                tool:text="0.9000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_text"
+                android:textColor="@color/textSecondary"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
